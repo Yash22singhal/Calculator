@@ -28,7 +28,7 @@ hr{
 
 .display{
     font-family: "Montserrat", sans-serif;
-    font-size: 3vw;
+    font-size: 2vw;
     font-weight: bold;
     width: 100%;
     display: flex;
@@ -50,7 +50,7 @@ hr{
 
 .btn{
     font-family: "Montserrat", sans-serif;
-    font-size: 3vw;
+    font-size: 2vw;
     font-weight: bold;
     text-align: center;
     box-shadow: 3px 2px 2px grey;
