@@ -28,12 +28,12 @@ hr{
 
 .display{
     font-family: "Montserrat", sans-serif;
-    font-size: 1.5vw;
+    font-size: 3vw;
     font-weight: bold;
-    height: 40px;
     width: 100%;
     display: flex;
     justify-content: right;
+    text-align: right;
     padding: 0.4vw;
     border: solid 0px;
     border-radius: 0.5rem;
@@ -50,12 +50,13 @@ hr{
 
 .btn{
     font-family: "Montserrat", sans-serif;
-    font-size: 1.5vw;
+    font-size: 3vw;
     font-weight: bold;
     text-align: center;
     box-shadow: 3px 2px 2px grey;
     background-color: #b1e0e2;
     border: solid #001C30 1px;
+    padding: 5px;
 }
 
 .footer{
@@ -80,7 +81,15 @@ hr{
         margin-top: 10px;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-auto-rows: 20%;
+        grid-auto-rows: 6vh;
         gap: 0.4rem;
+    }
+
+    .btn{
+        font-size: 3vh;
+    }
+
+    .display{
+        font-size: 3vh;
     }
 }
