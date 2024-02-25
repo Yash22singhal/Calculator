@@ -23,7 +23,7 @@ hr{
 
 .calculator{
     margin: auto;
-    width: 40%;
+    width: 50%;
 }
 
 .display{
@@ -72,6 +72,10 @@ hr{
 
 
 @media screen and (max-width: 500px) {
+    .calculator{
+        width: 80%;
+    }
+
     .buttonSection{
         margin-top: 10px;
         display: grid;
